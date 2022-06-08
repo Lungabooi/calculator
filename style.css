@@ -24,6 +24,12 @@ button{
     width: 100px;
     margin: 6px;
     border-radius: 50px;
+    background: rgba( 255, 255, 255, 0.7 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 13.5px );
+-webkit-backdrop-filter: blur( 13.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .calculator{
     width: 500px;
@@ -31,5 +37,22 @@ button{
     padding: 50px;
     border: solid black;
     border-radius: 50px;
-    background-color: rgb(181, 202, 184);
+    background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
+    
 }
+#output{
+    margin: 40px;
+    padding: 40px;
+    font-size: 20px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: end;
+    background-position: center;
+    background-attachment: fixed;
+    height: 20px;
+
+
+}
+button:hover {
+    background-color: white;
+  }

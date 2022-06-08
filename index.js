@@ -16,4 +16,11 @@ function buildSum(char){
     document.getElementById("output").innerHTML = sum
   }
 
+  document.addEventListener('DOMContentLoaded', function(){
+      document.querySelector('.button').onclick = function() {
+          document.querySelector('#output').style.color = 'red';
+      }
+  })
+
+  
   

@@ -1,3 +1,7 @@
+body{
+    background-image: url(./image/geometry-1023846_1920.jpg);
+}
+
 #input{
     display: flex;
     justify-content: flex-end;
@@ -25,11 +29,11 @@ button{
     margin: 6px;
     border-radius: 50px;
     background: rgba( 255, 255, 255, 0.7 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 13.5px );
--webkit-backdrop-filter: blur( 13.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .calculator{
     width: 500px;
@@ -55,4 +59,4 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 button:hover {
     background-color: white;
-  }
+}
